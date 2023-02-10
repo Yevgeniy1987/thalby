@@ -549,8 +549,38 @@ h1 > span {
 .face-link:hover {
   text-decoration: underline;
 }
+
+.under-face-btn:hover {
+  color: #000;
+  background-color: transparent;
+  transition: 0.3s;
+}
 .form-feature {
   padding: 80px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  padding: 0 340px;
+}
+
+.form-field-name {
+  padding: 10px;
+  width: 40%;
+  background-color: transparent;
+  font-size: 14px;
+}
+.form-field-email {
+  width: 100%;
+  padding: 12px;
+  background-color: transparent;
+  font-size: 14px;
 }
 .under-face-btn {
   padding: 10px 23px 10px 23px;
@@ -559,56 +589,9 @@ h1 > span {
   font-size: 14px;
   border-radius: 999px;
   transition: 0.3s;
-  margin-top: 144px;
   border: 1px solid black;
+  margin: 0 auto;
 }
-.under-face-btn:hover {
-  color: #000;
-  background-color: transparent;
-  transition: 0.3s;
-}
-
-.form-group {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  gap: 30px;
-  justify-content: space-between;
-  position: relative;
-}
-.form-row {
-  display: flex;
-
-}
-.form-feature {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 26px;
-}
-.form-field-name {
-  padding: 10px;
-  width: 40%;
-  background-color: transparent;
-  font-size: 14px;
-}
-.form-field-email {
-  width: 80%;
-  padding: 12px;
-  background-color: transparent;
-  font-size: 14px;
-}
-.form-label {
-  position: absolute;
-  top: 30%;
-  left: 10px;
-  z-index: -1;
-  transition: 0.3s;
-  color: #A0A0A0;
-  ;
- }
- 
 h3 {
   text-align: center;
   margin-top: 9px;
@@ -744,6 +727,9 @@ h3 {
   .face-gap {
     margin-top: -254px;
   }
+  .form-group {
+    padding: 0px 181px;
+  }
 }
 /*-------------------------------------------------------------------- v1 (depend of design)*/
 /* `md` applies to medium devices (landscape phones, less than 768px) */
@@ -861,8 +847,8 @@ h3 {
     font-size: 16px;
     margin-top: 20px;
   }
-  .form-feature {
-    padding: 25px 0 15px 0;
+  .form-group {
+    padding: 0px 90px;
   }
   .footer-gap {
     gap: 20px;
@@ -949,6 +935,12 @@ h3 {
   }
   .face-img {
     margin: 0 auto;
+  }
+  .form-feature {
+    padding: 40px 0 10px 0;
+  }
+  .form-group {
+    padding: 0px 20px;
   }
   .footer {
     padding-top: 30px;
