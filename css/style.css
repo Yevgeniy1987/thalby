@@ -567,11 +567,48 @@ h1 > span {
   background-color: transparent;
   transition: 0.3s;
 }
-.align-center {
+
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 30px;
+  justify-content: space-between;
+  position: relative;
+}
+.form-row {
+  display: flex;
+
+}
+.form-feature {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 26px;
 }
+.form-field-name {
+  padding: 10px;
+  width: 40%;
+  background-color: transparent;
+  font-size: 14px;
+}
+.form-field-email {
+  width: 80%;
+  padding: 12px;
+  background-color: transparent;
+  font-size: 14px;
+}
+.form-label {
+  position: absolute;
+  top: 30%;
+  left: 10px;
+  z-index: -1;
+  transition: 0.3s;
+  color: #A0A0A0;
+  ;
+ }
+ 
 h3 {
   text-align: center;
   margin-top: 9px;
