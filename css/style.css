@@ -941,6 +941,10 @@ h3 {
   }
   .form-group {
     padding: 0px 20px;
+    flex-direction: column;
+  }
+  .form-field-name {
+    width: 100%;
   }
   .footer {
     padding-top: 30px;
